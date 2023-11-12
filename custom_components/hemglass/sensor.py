@@ -131,6 +131,7 @@ class HemglassSensor(Entity):
         self._homeLong = sensor_home_longitude
 
         self._icon = "mdi:calendar"
+        self._deviceclass = SensorDeviceClass.TIMESTAMP
 
     @property
     def name(self):
